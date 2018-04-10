@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OTBaseController: UIViewController {
+public class OTBaseController: UIViewController {
     
     // MARK: - Public
 
