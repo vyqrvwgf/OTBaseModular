@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13DAD92A4B66AC659F2D88ACE7648C63 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCD939604045ED58B53E890B6003D5 /* ReplaceMe.swift */; };
-		32B3F9431E5A80383960981562D5470D /* OTBaseModular-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE7FA85D3CDD68D06B28EA6EC8CE144 /* OTBaseModular-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F487DA0C72BD6BC196B17AE79EA6AA /* OTBaseModular-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4116938477C0575785E1595E2CA5A5 /* OTBaseModular-dummy.m */; };
+		32B3F9431E5A80383960981562D5470D /* OTBaseModular-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6315D4315448BA566CF419C5086589 /* OTBaseModular-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		335C24238D40E9831CF4121C1172797A /* Pods-OTBaseModular_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 493A5086DD19896AF05BD0B84D7EEB03 /* Pods-OTBaseModular_Example-dummy.m */; };
 		464B9E837F1B755347EA9CA937255FA0 /* Pods-OTBaseModular_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 512A2E6E76681FA74277B1C3636BDC50 /* Pods-OTBaseModular_Tests-dummy.m */; };
-		5DA0043F10FF0AF4B1E9608ED6B289DD /* OTBaseModular-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5A15AAEDA168ED2DB613E2103B2F87 /* OTBaseModular-dummy.m */; };
 		94D7F726A3E9AB639024829A4C015153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A03D7A9EE05EAD949E5459CE7D3CCFCB /* Pods-OTBaseModular_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E35564D0FBC5265B0616D1453BE25D /* Pods-OTBaseModular_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45BDF7A3D2082AF9095D00BD27EA580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B23F083A5240E2BAFF24ED0A7A9DA075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B93241C1647A74BE72B5A8AC884B7368 /* OTBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61010A7BD44730EC6B418B0E6FD9B885 /* OTBaseController.swift */; };
 		E03922EA8442A64CF533B1E165B5193D /* Pods-OTBaseModular_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD69C2E0CC745F03D77361B40AF12D53 /* Pods-OTBaseModular_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -30,28 +30,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01543A506913633B3DC634FD874BC74E /* OTBaseModular.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTBaseModular.modulemap; sourceTree = "<group>"; };
 		021373653E0B9C037ED72F50D20C4E02 /* Pods-OTBaseModular_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBaseModular_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		20BEF8DE3C1F26A634612286A90A1017 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		340DE587CB3626FADB38707AF358C3C2 /* Pods-OTBaseModular_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBaseModular_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3AD1E7465B4BA2BD24BE28BBE49C85EA /* OTBaseModular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTBaseModular.framework; path = OTBaseModular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDC428EB0C1142BE98300EFEDCF75A8 /* Pods-OTBaseModular_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBaseModular_Tests-resources.sh"; sourceTree = "<group>"; };
 		3FA645898F424D7B4E2DC3406601F63C /* Pods-OTBaseModular_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBaseModular_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		420E5EEFF77CBD4F53DD0F55DA17EA0F /* OTBaseModular-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBaseModular-prefix.pch"; sourceTree = "<group>"; };
-		46FCD939604045ED58B53E890B6003D5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OTBaseModular/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		4857BEDE7D1BBD0D88C4B55F9AB70D94 /* OTBaseModular.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTBaseModular.xcconfig; sourceTree = "<group>"; };
-		488EEE3FFCDCF5E07DCD51D9E5A4B7BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485CE1E0A361E843D1B02AF817712D55 /* OTBaseModular.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTBaseModular.xcconfig; sourceTree = "<group>"; };
 		493A5086DD19896AF05BD0B84D7EEB03 /* Pods-OTBaseModular_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTBaseModular_Example-dummy.m"; sourceTree = "<group>"; };
 		49D4758B4A24EED307B1F6B0DEB66ABC /* Pods-OTBaseModular_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBaseModular_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4AE7FA85D3CDD68D06B28EA6EC8CE144 /* OTBaseModular-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBaseModular-umbrella.h"; sourceTree = "<group>"; };
+		4C4116938477C0575785E1595E2CA5A5 /* OTBaseModular-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTBaseModular-dummy.m"; sourceTree = "<group>"; };
+		4E6315D4315448BA566CF419C5086589 /* OTBaseModular-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBaseModular-umbrella.h"; sourceTree = "<group>"; };
 		512A2E6E76681FA74277B1C3636BDC50 /* Pods-OTBaseModular_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTBaseModular_Tests-dummy.m"; sourceTree = "<group>"; };
-		5171430E252957FB5E8978FAFA2FB735 /* OTBaseModular.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTBaseModular.modulemap; sourceTree = "<group>"; };
 		582A33A63DF0979490AAC209AC99FE20 /* Pods-OTBaseModular_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBaseModular_Example-resources.sh"; sourceTree = "<group>"; };
+		61010A7BD44730EC6B418B0E6FD9B885 /* OTBaseController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTBaseController.swift; path = OTBaseModular/Classes/OTBaseController.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79E35564D0FBC5265B0616D1453BE25D /* Pods-OTBaseModular_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTBaseModular_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7ABA0E061A3B54F34C44931AD1742ED6 /* OTBaseModular-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBaseModular-prefix.pch"; sourceTree = "<group>"; };
 		7FD7CF7ED7CB45AFB8D573502338D3BE /* Pods-OTBaseModular_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTBaseModular_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87810C82D3A47EF2DF8BC9038383E467 /* Pods_OTBaseModular_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTBaseModular_Example.framework; path = "Pods-OTBaseModular_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88871E864D877FDF67183DAF7508D8DA /* Pods-OTBaseModular_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTBaseModular_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D271F16E9E933E96BB254CFE02C884B /* Pods_OTBaseModular_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTBaseModular_Tests.framework; path = "Pods-OTBaseModular_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBFBF9E305033D7B3ACF05EB4E4BCBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94698365E2F29ABF179B1C855F18DB79 /* Pods-OTBaseModular_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBaseModular_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A5A6BBB5F3C06A54E69A22ADB017F94 /* Pods-OTBaseModular_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTBaseModular_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		BA010AAFF622E9D8DF07E4429ED2EB77 /* Pods-OTBaseModular_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTBaseModular_Tests.modulemap"; sourceTree = "<group>"; };
 		BDDAF4FA267C9BB5FCD6A08FF36F3D19 /* Pods-OTBaseModular_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTBaseModular_Example.modulemap"; sourceTree = "<group>"; };
 		C7400B007E7FB369692B47A064265419 /* Pods-OTBaseModular_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBaseModular_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DE5A15AAEDA168ED2DB613E2103B2F87 /* OTBaseModular-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTBaseModular-dummy.m"; sourceTree = "<group>"; };
 		E04A55ECD204691BA242E37E4C146B39 /* Pods-OTBaseModular_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTBaseModular_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,16 +119,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5457B47C8AB01560A188B62D1582AAB8 /* OTBaseModular */ = {
-			isa = PBXGroup;
-			children = (
-				46FCD939604045ED58B53E890B6003D5 /* ReplaceMe.swift */,
-				EE574A42A1F228BD3F4712B1FC1B4BB4 /* Support Files */,
-			);
-			name = OTBaseModular;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +143,7 @@
 		A1DFED94E810944D0AE7D87F2B964F83 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5457B47C8AB01560A188B62D1582AAB8 /* OTBaseModular */,
+				AC7939126C49A88B12AF0DB403E61E39 /* OTBaseModular */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -176,6 +166,16 @@
 			path = "Target Support Files/Pods-OTBaseModular_Example";
 			sourceTree = "<group>";
 		};
+		AC7939126C49A88B12AF0DB403E61E39 /* OTBaseModular */ = {
+			isa = PBXGroup;
+			children = (
+				61010A7BD44730EC6B418B0E6FD9B885 /* OTBaseController.swift */,
+				FF782E8FD6B6B79129FAFB13644BEBB0 /* Support Files */,
+			);
+			name = OTBaseModular;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,15 +192,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EE574A42A1F228BD3F4712B1FC1B4BB4 /* Support Files */ = {
+		FF782E8FD6B6B79129FAFB13644BEBB0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				488EEE3FFCDCF5E07DCD51D9E5A4B7BC /* Info.plist */,
-				5171430E252957FB5E8978FAFA2FB735 /* OTBaseModular.modulemap */,
-				4857BEDE7D1BBD0D88C4B55F9AB70D94 /* OTBaseModular.xcconfig */,
-				DE5A15AAEDA168ED2DB613E2103B2F87 /* OTBaseModular-dummy.m */,
-				420E5EEFF77CBD4F53DD0F55DA17EA0F /* OTBaseModular-prefix.pch */,
-				4AE7FA85D3CDD68D06B28EA6EC8CE144 /* OTBaseModular-umbrella.h */,
+				8FBFBF9E305033D7B3ACF05EB4E4BCBD /* Info.plist */,
+				01543A506913633B3DC634FD874BC74E /* OTBaseModular.modulemap */,
+				485CE1E0A361E843D1B02AF817712D55 /* OTBaseModular.xcconfig */,
+				4C4116938477C0575785E1595E2CA5A5 /* OTBaseModular-dummy.m */,
+				7ABA0E061A3B54F34C44931AD1742ED6 /* OTBaseModular-prefix.pch */,
+				4E6315D4315448BA566CF419C5086589 /* OTBaseModular-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/OTBaseModular";
@@ -257,7 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4207D9AE8A2DB889314C6E56B03094E7 /* Build configuration list for PBXNativeTarget "OTBaseModular" */;
 			buildPhases = (
-				2A1A00399092CC4ED8C8EA3E1893C166 /* Sources */,
+				11A32D6722B25D12FF436E3867C5819F /* Sources */,
 				78A16745A77634758546E614F1680552 /* Frameworks */,
 				5BB30CC9A5FD765CAE9E6C170B9B4E3D /* Headers */,
 			);
@@ -317,12 +317,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A1A00399092CC4ED8C8EA3E1893C166 /* Sources */ = {
+		11A32D6722B25D12FF436E3867C5819F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA0043F10FF0AF4B1E9608ED6B289DD /* OTBaseModular-dummy.m in Sources */,
-				13DAD92A4B66AC659F2D88ACE7648C63 /* ReplaceMe.swift in Sources */,
+				B93241C1647A74BE72B5A8AC884B7368 /* OTBaseController.swift in Sources */,
+				08F487DA0C72BD6BC196B17AE79EA6AA /* OTBaseModular-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +390,7 @@
 		};
 		2776542F2FB36B9F3198B337F5A182C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4857BEDE7D1BBD0D88C4B55F9AB70D94 /* OTBaseModular.xcconfig */;
+			baseConfigurationReference = 485CE1E0A361E843D1B02AF817712D55 /* OTBaseModular.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -641,7 +641,7 @@
 		};
 		F72A50F49C0B92D831DB1AFB5C7CAC84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4857BEDE7D1BBD0D88C4B55F9AB70D94 /* OTBaseModular.xcconfig */;
+			baseConfigurationReference = 485CE1E0A361E843D1B02AF817712D55 /* OTBaseModular.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

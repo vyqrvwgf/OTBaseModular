@@ -1,5 +1,5 @@
 PODS:
-  - OTBaseModular (0.1.0)
+  - OTBaseModular (0.1.2)
 
 DEPENDENCIES:
   - OTBaseModular (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OTBaseModular: 46a5e96701b07d0991a0f1be36d2671c3703ad59
+  OTBaseModular: f399e8016e7c5922bfaed3eb97473b14e6f1cdd2
 
 PODFILE CHECKSUM: c1fe61e1e0f14d0179073fd8433b833a45cde745
 

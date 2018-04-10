@@ -13,7 +13,7 @@ public class OTBaseController: UIViewController {
     // MARK: - Public
 
     // MARK: - Life Cycle
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .white
