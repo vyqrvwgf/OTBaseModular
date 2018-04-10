@@ -8,12 +8,12 @@
 
 import UIKit
 
-public class OTBaseController: UIViewController {
+open class OTBaseController: UIViewController {
     
     // MARK: - Public
 
     // MARK: - Life Cycle
-    override public func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .white
