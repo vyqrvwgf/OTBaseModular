@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTBaseModular_Example' do
+  pod 'OTBaseModular', :path => '../'
+
+  target 'OTBaseModular_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
